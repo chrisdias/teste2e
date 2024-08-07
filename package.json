@@ -1,0 +1,29 @@
+{
+    "name": "basic-typescript-app",
+    "version": "1.0.0",
+    "description": "A basic TypeScript application",
+    "main": "out/index.js",
+    "scripts": {
+        "clean": "rm -rf out",
+        "build": "tsc",
+        "start": "node out/index.js",
+        "test": "jest",
+        "watch": "tsc --watch",
+        "bundle": "webpack"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/jest": "^29.0.0",
+        "jest": "^29.0.0",
+        "ts-jest": "^29.0.0",
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.5.4",
+        "webpack": "^5.93.0",
+        "webpack-cli": "^5.1.4"
+    },
+    "jest": {
+        "preset": "ts-jest",
+        "testEnvironment": "node"
+    }
+}

@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+*.log
+npm-debug.log*
+
+# TypeScript
+out/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
