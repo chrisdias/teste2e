@@ -10,7 +10,7 @@ import {
     replaceAll, 
     truncateString, 
     getLastCharacter 
-} from './strings';
+} from './simpleStrings';
 
 // Importing functions from geometry.ts
 import { 
@@ -52,7 +52,6 @@ import {
 } from './conversions';
 
 
-// Existing code
 import { add, subtract, multiply, divide, power } from './math';
 
 const sayHello = (name: string): string => {
