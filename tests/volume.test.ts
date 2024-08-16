@@ -71,8 +71,8 @@ describe('Volume Calculations', () => {
 
     test('volumeOfTrapezoidalPrism', () => {
         expect(volumeOfTrapezoidalPrism(3, 4, 5, 6)).toBe(105);
-        expect(volumeOfTrapezoidalPrism(0, 4, 5, 6)).toBe(0);
-        expect(volumeOfTrapezoidalPrism(3, 0, 5, 6)).toBe(0);
+        expect(volumeOfTrapezoidalPrism(0, 4, 5, 6)).toBe(60);
+        expect(volumeOfTrapezoidalPrism(3, 0, 5, 6)).toBe(45);
         expect(volumeOfTrapezoidalPrism(3, 4, 0, 6)).toBe(0);
         expect(volumeOfTrapezoidalPrism(3, 4, 5, 0)).toBe(0);
     });
