@@ -1,6 +1,3 @@
-
-You can use this template to quickly copy/paste into a new issue. Just remember to update it to your latest build :)
-
 ```
 Version: 1.93.0-insider (user setup)
 Commit: 922413f6d97e16c05b565398f33d95c306b1ceb7
@@ -14,6 +11,8 @@ OS: Windows_NT x64 10.0.26120
 
 Chat: v0.20.2024081201 (pre-release)
 ```
+Repo: https://github.com/chrisdias/testing
 
-using repo: https://github.com/chrisdias/testing
-scenario: https://microsoft.sharepoint.com/:w:/t/VSCode68/EZEpWB6lk95LlRhH5EhWYhMBo-bdi5YggUdt_nb2ApMVjg?e=m4JdwX
+Scenario: https://github.com/microsoft/vscode-copilot/issues/7112
+
+Doc: https://microsoft.sharepoint.com/:w:/t/VSCode68/EZEpWB6lk95LlRhH5EhWYhMBo-bdi5YggUdt_nb2ApMVjg?e=m4JdwX
