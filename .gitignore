@@ -6,6 +6,9 @@ npm-debug.log*
 # jest
 coverage/
 
+# Vitest
+coverage/
+
 # TypeScript
 out/
 *.tsbuildinfo
